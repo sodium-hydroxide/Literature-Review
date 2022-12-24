@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1670981247 "main.aux" "main.bbl" "main" 1671857221
+["bibtex main"] 1670981247 "main.aux" "main.bbl" "main" 1671891000
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "main.aux" 1671857221 1473 6db31448ff4987132e3a144447fdd595 "pdflatex"
+  "main.aux" 1671891000 1473 6db31448ff4987132e3a144447fdd595 "pdflatex"
   "sources.bib" 1670981196 291 d5e3d931d6f684ee67ac566fb0bc0c9c ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1671857220 "/Users/dalinar/Documents/Colostate/-Literature Review/main.tex" "main.pdf" "main" 1671857221
-  "../csuGeneric.sty" 1670525007 7795 8f6c7764e37179268c53304983680ff3 ""
-  "/Users/dalinar/Documents/Colostate/-Literature Review/main.tex" 1671856973 1158 90f42cdb67fd18af3c68cca0681d3b23 ""
+["pdflatex"] 1671890999 "/Users/dalinar/Documents/Colostate/-Literature Review/main.tex" "main.pdf" "main" 1671891000
+  "../ERHS-Styles/csuGeneric.sty" 1670525007 7795 8f6c7764e37179268c53304983680ff3 ""
+  "/Users/dalinar/Documents/Colostate/-Literature Review/main.tex" 1671890789 1170 0d3d2081cc90b349d39e25f3024670a8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -136,11 +136,11 @@
   "conclusion.tex" 0 -1 0 ""
   "discussion.tex" 0 -1 0 ""
   "introduction.tex" 0 -1 0 ""
-  "main.aux" 1671857221 1473 6db31448ff4987132e3a144447fdd595 "pdflatex"
+  "main.aux" 1671891000 1473 6db31448ff4987132e3a144447fdd595 "pdflatex"
   "main.bbl" 1670981247 275 8167a558a874929c6db1d30861324bfa "bibtex main"
-  "main.out" 1671857221 537 21a0c5050d49ae58431d0960c1814417 "pdflatex"
-  "main.tex" 1671856973 1158 90f42cdb67fd18af3c68cca0681d3b23 ""
-  "main.toc" 1671857221 352 6c7e727dc2e2bc9b837621e345c72227 "pdflatex"
+  "main.out" 1671891000 537 21a0c5050d49ae58431d0960c1814417 "pdflatex"
+  "main.tex" 1671890789 1170 0d3d2081cc90b349d39e25f3024670a8 ""
+  "main.toc" 1671891000 352 6c7e727dc2e2bc9b837621e345c72227 "pdflatex"
   "notableWorks.tex" 1670981217 78 7b96ceee9632e91db1e41080c5965c99 ""
   "notableWorks_currie1968limits.tex" 0 -1 0 ""
   (generated)
