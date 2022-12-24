@@ -1,8 +1,8 @@
-PWD /Users/dalinar/Documents/GeneralDocs/Colostate/-Literature Review
+PWD /Users/dalinar/Documents/Colostate/-Literature Review
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/dalinar/Documents/GeneralDocs/Colostate/-Literature Review/main.tex
+INPUT /Users/dalinar/Documents/Colostate/-Literature Review/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/paper/paper.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/paper/paper.cls
