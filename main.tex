@@ -1,0 +1,45 @@
+\documentclass[12 pt]{paper}
+% Package that contains formatting for all lab reports
+\usepackage{../csuGeneric}
+\def \figWidthProportion {0.496}
+\newcommand{\prob}[1]{P\left\{\left. #1 \right.\right\}}
+\usepackage[margin = 2 cm]{geometry}
+
+% Format Sections
+  % hide section numbers
+  \renewcommand\thesection{}
+  \renewcommand\thesubsection{}
+  \renewcommand\thesubsubsection{}
+  % Change section format
+\titleformat{\section}
+{\centering\normalsize\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+
+% Title page of document
+\title{Review of Literature Regarding Portal Monitors and Minimum Detectable Activity}
+\author{Noah J. Blair}
+\begin{document}
+\maketitle
+\begin{abstract}
+  \noindent
+  \input{abstract.tex}
+\end{abstract}
+\tableofcontents
+\newpage
+\section{Introduction}
+\input{introduction.tex}
+\section{Notable Works}
+\input{notableWorks.tex}
+\section{Discussion}
+\input{discussion.tex}
+\section{Conclusion}
+\input{conclusion.tex}
+
+
+\bibliography{sources}{}
+\bibliographystyle{apalike}
+\end{document}
