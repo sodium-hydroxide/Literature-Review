@@ -1,6 +1,0 @@
-unshielded
-photoelectron
-non-paralyzable
-paralyzable
-ionizations
-bremsstrahlung

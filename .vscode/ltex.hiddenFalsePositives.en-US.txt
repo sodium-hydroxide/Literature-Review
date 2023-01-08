@@ -1,1 +1,0 @@
-{"rule":"EN_COMPOUNDS","sentence":"^\\QThere isn't a theoretical for this, and as such, there isn't a well defined attenuation cross section.\\E$"}

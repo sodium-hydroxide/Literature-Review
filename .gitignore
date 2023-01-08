@@ -1,0 +1,5 @@
+.DS_Store
+.Rhistory
+*.code-workspace
+.vscode
+.Rproj.user
