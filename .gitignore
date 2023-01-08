@@ -1,5 +1,6 @@
 .DS_Store
 .Rhistory
 *.code-workspace
+*.synctex.gz
 .vscode
 .Rproj.user
