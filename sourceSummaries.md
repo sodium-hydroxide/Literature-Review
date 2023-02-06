@@ -141,18 +141,31 @@ $$
 
 This indicates that it is more likely that the failure rate is 10%.
 
-# Currie 1968
 
 
+# Frequentist Methods 
+## Currie 1968
 
-# Brandl 2013
+There are three detection thresholds which are used for obtaining decision thresholds. These
 
-# Brogan 2018
+## ISO 11929-1:2019
 
-# Meengs 2018
+## EPA (MARSSIM / MARLAP)
 
-# Meengs 2021
+## IUPAC
 
-# IEEE Border Crossings
+# Bayesian Methods
 
-# IAEA Border Crossings
+## Brandl 2013
+
+## Brogan 2018
+
+## Meengs 2018
+
+## Meengs 2021
+
+# Regulatory Studies of Portal Monitors
+
+## IEEE Border Crossings
+
+## IAEA Border Crossings
