@@ -1,5 +1,6 @@
-\contentsline {section}{\numberline {}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {}Notable Works}{2}{section.2}%
-\contentsline {subsection}{\numberline {}\cite {currie1968limits}}{2}{subsection.2.1}%
-\contentsline {section}{\numberline {}Discussion}{2}{section.3}%
-\contentsline {section}{\numberline {}Conclusion}{2}{section.4}%
+\contentsline {section}{\numberline {}Introduction}{2}{}%
+\contentsline {section}{\numberline {}Methodology I: Frequentist Statistics}{2}{}%
+\contentsline {section}{\numberline {}Methodology II: Bayesian Statistics}{2}{}%
+\contentsline {section}{\numberline {}Methodology III: Portal Monitor Techniques}{2}{}%
+\contentsline {section}{\numberline {}Discussion}{2}{}%
+\contentsline {section}{\numberline {}Conclusion}{2}{}%
