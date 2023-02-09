@@ -22,6 +22,17 @@ There are four cases when choosing a hypothesis:
 
 The goal is to minimize the likelihood of type 1 and type 2 error.
 
+## Confidence Intervals
+
+### Gaussian Interval
+
+$$
+k_\alpha = \sqrt{2}\mathrm{inverf}(2 - 2\alpha)
+$$
+### Z-Test
+
+### T-Test
+
 ## Bayseian Basics
 **These ideas come primarily from the bayesian statistics lectures notes given by Michael Baron and American University.**
 
@@ -146,7 +157,47 @@ This indicates that it is more likely that the failure rate is 10%.
 # Frequentist Methods 
 ## Currie 1968
 
-There are three detection thresholds which are used for obtaining decision thresholds. These
+There are three detection thresholds which are used. These are the:
+
+| Limit | Explaination |
+|---|---|
+| Critical Level, $L_C$ | "one may decide whether of not the result of an analysis indicates detection." <br> minimum value in which counts may be distinguished from background radiation. 
+| Detection Limit, $L_D$ | "a given analytical procedure may be relied upon to lead to detection." <br> minimum level at which 
+| Determination Limit, $L_Q$ |
+
+Suppose in some period of time, $B$ counts are measured from background. In another period of time $C=S+B$ counts are measured in which $S$ is some amount of counts we wish the distinguish from background. 
+
+| Quantity | Observed Value | True Mean | Standard Deviation |
+|---|---|---|---|
+Background | $B$ | $\mu_B$ | $\sigma_B = \sqrt{B}$
+Gross Signal | $C$ | $\mu_{C}$ | $\sigma_C = \sqrt{C}$
+Net Signal | $S=C-B$ | $\mu_S = \mu_C - \mu_B$ | $\sigma_S = \sqrt{\sigma_C^2 + \sigma_B^2}$
+
+The goal is to take measurements $\{B,C\}$ and determine whether or not $\mu_S > 0$, and determine the minimum value of $\mu_S$ which can both reliably be said to be above zero and the minimum value which may be reliable determined quantitatively. 
+
+The first question is a binary  qualitative decision on whether radioactive material is present and is determined *a posteriori*, ie must be decided upon after taking measurements.
+
+The questions of the minimum signal strength which can be determined quantitatively is decied *a priori*, ie must be known about the measurement technique prior to making measurements.
+
+The critical level $L_C$ is chosen to minimize the possibility of Type I error: stating a sample contains radioactive material when it does not. If $P[\text{Reject } H_0 | H_0\text{ is True}]=\alpha$ is the confidence interval required to minimize Type I error, and $\sigma_0$ is the standard deviation of measurements when $\mu_S=0$, then the critical level is:
+
+$$
+L_C = k_\alpha \sigma_0
+$$
+
+This is the smallest value of $S$ which may said to be above background with a probability of $1-\alpha$. 
+
+The detection limit $L_D$ is chosen to minimize the possibility of Type II error: stating a sample does not contain radioactive material when it does. If $P[\text{Fail to Reject } H_0 | H_0\text{ is False}]=\beta$ is the confidence interval required to minimize Type II error, $\sigma_D$ is the standard deviation of measurements made at $S=L_D$, then:
+
+$$
+L_D = L_C + k_\beta \sigma_D
+$$
+
+If $S>L_D$, then 
+
+
+
+
 
 ## ISO 11929-1:2019
 

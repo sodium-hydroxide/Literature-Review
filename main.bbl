@@ -1,3 +1,54 @@
 \begin{thebibliography}{}
 
+\bibitem[Beck et~al., 2001]{ITRAPBeck2001}
+Beck, P., Schmitzer, C., Duftschmid, K.~E., and Arlt, R. (2001).
+\newblock Itrap - international laboratory and field test site exercise for
+  radiation detection instruments and monitoring systems at border crossings.
+\newblock Technical report, International Atomic Energy Agency (IAEA).
+\newblock IAEA-CN--86.
+
+\bibitem[Brandl, 2013]{StatisticalConsiderationsBrandl2013}
+Brandl, A. (2013).
+\newblock Statistical considerations for improved signal identification from
+  repeated measurements at low signal-to-background ratios.
+\newblock {\em Health physics (1958)}, 104(3):256--263.
+
+\bibitem[Brogan,
+  2018]{decisionThresholdRadiologicalSourceBayesianBroganDissertation2018}
+Brogan, J. (2018).
+\newblock {\em Development of a Decision Threshold for Radiological Source
+  Detection Utilizing Bayesian Statistical Techniques Applied to Gross Count
+  Measurements}.
+\newblock PhD thesis.
+
+\bibitem[Currie, 1968]{limitsQaulitativeDetectionCurrie1968}
+Currie, L.~A. (1968).
+\newblock Limits for qualitative detection and quantitative determination.
+  application to radiochemistry.
+\newblock {\em Analytical chemistry}, 40(3):586--593.
+
+\bibitem[Geelhood et~al., 2003]{IEEEportalMonitoringOVerview2003}
+Geelhood, B., Ely, J., Hansen, R., Kouzes, R., Schweppe, J., and Warner, R.
+  (2003).
+\newblock Overview of portal monitoring at border crossings.
+\newblock In {\em 2003 IEEE Nuclear Science Symposium. Conference Record (IEEE
+  Cat. No.03CH37515)}, volume~1, pages 513--517 Vol.1.
+
+\bibitem[Inczedy et~al., 1998]{IUPAC14.4.3.7detectionCapabilities3ed1998}
+Inczedy, J., Lengyel, T., and Urie, A.~M. (1998).
+\newblock {\em 18.4.3.7 Detection and quantification capabilities}.
+\newblock Pergamon Pr, 3 edition.
+
+\bibitem[Meengs, 2021]{developmentBayesianDetectionWeakMeengsDissertation2021}
+Meengs, M. (2021).
+\newblock {\em Development of a Bayesian linear regression model for the
+  detection of a weak radiological source from gamma spectra measurements}.
+\newblock PhD thesis.
+
+\bibitem[Meengs, 2018]{detectionOfWeakRadiologicalSourceMeengsThesis2018}
+Meengs, M.~R. (2018).
+\newblock Detection of a weak radiological source in ambient background using
+  spectral analysis.
+\newblock Master's thesis.
+
 \end{thebibliography}
