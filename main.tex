@@ -1,13 +1,77 @@
 \documentclass[12 pt]{article}
-% Package that contains formatting for all lab reports
-\usepackage{../ERHS-Styles/csuGeneric}
-\usepackage[margin = 2 cm]{geometry}
+\usepackage[margin = 2.5 cm]{geometry}
 
-% Format Sections
-  % hide section numbers
-  \renewcommand\thesection{}
-  \renewcommand\thesubsection{}
-  \renewcommand\thesubsubsection{}
+%%%% Definitions for Commands
+\renewcommand\thesection{}
+\renewcommand\thesubsection{}
+\renewcommand\thesubsubsection{}
+\renewcommand\refname{}
+% Packages
+\usepackage[margin = 1 in]{geometry}
+\usepackage{
+    filecontents,   % Input file within latex document
+    subfiles,       % Include different parts of document in different files
+    isotope,        % Display isotope
+    natbib,         % Better alternative to \cite
+    amsmath,        % Math symbols
+    amssymb,        % Math symbols
+    amsthm,         % Math symbols
+    braket,         % Bras and Kets
+    calligra,       % Font family
+    graphicx,       % Graphics and figures
+    xifthen,        % Logic in defining formulas
+    float,          % Define where objects are located
+    lastpage,       % Display total number of pages
+    longtable,      % Allow tables to be broken up
+    titlesec,       % Change format of section titles
+    fancyhdr,       % Change page number styling
+    caption,        % Format captions for figures and tables
+    subcaption,     % Contain multiple figures in an environment
+    textgreek,      % Include greek letters in text
+    appendix,       % Allow for appendices in documents
+    enumitem        % More control over symbols for ennumeration
+}
+% Shortcuts for braces
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\rbrak}{(}{)}
+\DeclarePairedDelimiter{\sbrak}{[}{]}
+\DeclarePairedDelimiter{\cbrak}{[}{]}
+% Display code
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{8pt}
+% -- Defining colors:
+\usepackage[dvipsnames]{xcolor}
+\lstdefinelanguage{Julia}%
+  {morekeywords={abstract,break,case,catch,const,continue,do,else,elseif,%
+  end,export,false,for,function,immutable,import,importall,if,in,%
+  macro,module,otherwise,quote,return,switch,true,try,type,typealias,%
+  using,while},%
+    sensitive=true,%
+    alsoother={$},%
+    morecomment=[l]\#,%
+    morecomment=[n]{\#=}{=\#},%
+    morestring=[s]{"}{"},%
+    morestring=[m]{'}{'},%
+}[keywords,comments,strings]%
+\lstset{%
+    language         = Julia,
+    keywordstyle     = \bfseries\color{blue},
+    stringstyle      = \color{magenta},
+    commentstyle     = \color{ForestGreen},
+    showstringspaces = false,
+    basicstyle=\ttfamily\bfseries\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=t,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
   % Change section format
 \titleformat{\section}
 {\centering\normalsize\bfseries}{\thesection}{1em}{}
