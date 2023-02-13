@@ -39,6 +39,13 @@ Inczedy, J., Lengyel, T., and Urie, A.~M. (1998).
 \newblock {\em 18.4.3.7 Detection and quantification capabilities}.
 \newblock Pergamon Pr, 3 edition.
 
+\bibitem[ISO 11929:2010(E), 2010]{ISO11929:2010}
+ISO 11929:2010(E) (2010).
+\newblock Determination of the characteristic limits (decision threshold,
+  detection limit and limits of the confidence interval) for measurements of
+  ionizing radiation fundamentals and application.
+\newblock Standard, International Organization for Standardization, Geneva, CH.
+
 \bibitem[Meengs, 2021]{developmentBayesianDetectionWeakMeengsDissertation2021}
 Meengs, M. (2021).
 \newblock {\em Development of a Bayesian linear regression model for the

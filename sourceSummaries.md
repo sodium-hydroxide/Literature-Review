@@ -201,6 +201,18 @@ If $S>L_D$, then
 
 ## ISO 11929-1:2019
 
+### Definitions
+
+#### Measurand
+$$ Y $$
+
+Quantity subject to measurement. This value is non-negative and does not include background radiation sources.
+
+#### Measurement Procedure
+Operating procedure for measuring measurand
+
+#### 
+
 ## EPA (MARSSIM / MARLAP)
 
 ## IUPAC
